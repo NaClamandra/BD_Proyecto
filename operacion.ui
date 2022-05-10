@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>operacion</class>
+ <widget class="QMainWindow" name="operacion">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>572</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QGroupBox" name="groupBox">
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QPlainTextEdit" name="dia_circ_ruta">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>70</y>
+         <width>281</width>
+         <height>32</height>
+        </rect>
+       </property>
+       <property name="placeholderText">
+        <string>Dias de circulación</string>
+       </property>
+      </widget>
+      <widget class="QPlainTextEdit" name="cant_prod_local">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>120</y>
+         <width>281</width>
+         <height>33</height>
+        </rect>
+       </property>
+       <property name="placeholderText">
+        <string>Cantidad de producto</string>
+       </property>
+      </widget>
+      <widget class="QPlainTextEdit" name="direccion_local">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>20</y>
+         <width>281</width>
+         <height>32</height>
+        </rect>
+       </property>
+       <property name="placeholderText">
+        <string>Direccion del local</string>
+       </property>
+      </widget>
+      <widget class="QPlainTextEdit" name="kilometros_ruta">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>20</y>
+         <width>281</width>
+         <height>32</height>
+        </rect>
+       </property>
+       <property name="placeholderText">
+        <string>Kilometros de ruta</string>
+       </property>
+      </widget>
+      <widget class="QPlainTextEdit" name="cod_emb_repartidor">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>170</y>
+         <width>281</width>
+         <height>33</height>
+        </rect>
+       </property>
+       <property name="placeholderText">
+        <string>Codigo de embotelladora</string>
+       </property>
+      </widget>
+      <widget class="QPlainTextEdit" name="no_ruta_local">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>70</y>
+         <width>281</width>
+         <height>33</height>
+        </rect>
+       </property>
+       <property name="placeholderText">
+        <string>N° de ruta</string>
+       </property>
+      </widget>
+      <widget class="QPlainTextEdit" name="nombre_embotelladora">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>70</y>
+         <width>281</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="placeholderText">
+        <string>Nombre de embotelladora</string>
+       </property>
+      </widget>
+      <widget class="QPlainTextEdit" name="sueldo_repartidor">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>70</y>
+         <width>281</width>
+         <height>33</height>
+        </rect>
+       </property>
+       <property name="placeholderText">
+        <string>sueldo del repartidor</string>
+       </property>
+      </widget>
+      <widget class="QPlainTextEdit" name="fech_nac_repartidor">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>120</y>
+         <width>281</width>
+         <height>32</height>
+        </rect>
+       </property>
+       <property name="placeholderText">
+        <string>Fecha de nacimiento</string>
+       </property>
+      </widget>
+      <widget class="QPlainTextEdit" name="direccion_embotelladora">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>23</y>
+         <width>281</width>
+         <height>33</height>
+        </rect>
+       </property>
+       <property name="placeholderText">
+        <string>Direccion de embotelladora</string>
+       </property>
+      </widget>
+      <widget class="QPlainTextEdit" name="nombre_local">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>170</y>
+         <width>281</width>
+         <height>32</height>
+        </rect>
+       </property>
+       <property name="placeholderText">
+        <string>Nombre del local</string>
+       </property>
+      </widget>
+      <widget class="QPlainTextEdit" name="nombre_repartidor">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>20</y>
+         <width>281</width>
+         <height>32</height>
+        </rect>
+       </property>
+       <property name="placeholderText">
+        <string>Nombre del repartidor</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox">
+       <property name="geometry">
+        <rect>
+         <x>400</x>
+         <y>30</y>
+         <width>91</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="layoutDirection">
+        <enum>Qt::LeftToRight</enum>
+       </property>
+       <item>
+        <property name="text">
+         <string>Ventas</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Embotelladora</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Ruta</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Repartidor</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Local</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QPlainTextEdit" name="cod_rep_ruta">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>120</y>
+         <width>281</width>
+         <height>33</height>
+        </rect>
+       </property>
+       <property name="placeholderText">
+        <string>Codigo de repartidor</string>
+       </property>
+      </widget>
+      <widget class="QPlainTextEdit" name="cod_ven_ventas">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>20</y>
+         <width>281</width>
+         <height>33</height>
+        </rect>
+       </property>
+       <property name="placeholderText">
+        <string>Codigo de venta</string>
+       </property>
+      </widget>
+      <widget class="QPlainTextEdit" name="total_ventas">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>70</y>
+         <width>281</width>
+         <height>33</height>
+        </rect>
+       </property>
+       <property name="placeholderText">
+        <string>Total de la venta</string>
+       </property>
+      </widget>
+      <widget class="QPlainTextEdit" name="fecha_ventas">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>120</y>
+         <width>281</width>
+         <height>33</height>
+        </rect>
+       </property>
+       <property name="placeholderText">
+        <string>Fecha de la venta</string>
+       </property>
+      </widget>
+      <widget class="QPlainTextEdit" name="can_prod_ventas">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>170</y>
+         <width>281</width>
+         <height>33</height>
+        </rect>
+       </property>
+       <property name="placeholderText">
+        <string>Cantidad de producto</string>
+       </property>
+      </widget>
+      <widget class="QPlainTextEdit" name="cod_rep_ventas">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>220</y>
+         <width>281</width>
+         <height>33</height>
+        </rect>
+       </property>
+       <property name="placeholderText">
+        <string>Codigo de repartidor</string>
+       </property>
+      </widget>
+      <widget class="QPlainTextEdit" name="nom_loc_ventas">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>270</y>
+         <width>281</width>
+         <height>32</height>
+        </rect>
+       </property>
+       <property name="placeholderText">
+        <string>Nombre del local</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="ejecutar">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>400</x>
+         <y>90</y>
+         <width>91</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Procesar</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="limpiar">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>400</x>
+         <y>130</y>
+         <width>91</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Limpiar</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
